@@ -1,0 +1,19 @@
+git config --global user.name "BhavanaKalyani"
+git config --global user.email "kalyaniduggirala04@gmail.com"
+git congig --global color.ui auto
+
+>>Mandatory commands
+
+git init
+git remote add origin github local link
+git pull origin main
+
+>>to push files
+git add file_name
+git add.(all files)
+
+>> to see unteacked files
+
+git status
+git commit -m "commit_msg"
+git push
