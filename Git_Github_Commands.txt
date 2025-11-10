@@ -37,3 +37,6 @@ git branch -d branch_name
 
 >> push to delete remote branch
 git push origin --delete branch_name
+
+>>to make copy of git repository in ur remote files
+git clone url
