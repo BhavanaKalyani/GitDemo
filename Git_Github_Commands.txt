@@ -1,3 +1,4 @@
+>> initial files
 git config --global user.name "BhavanaKalyani"
 git config --global user.email "kalyaniduggirala04@gmail.com"
 git congig --global color.ui auto
@@ -12,8 +13,27 @@ git pull origin main
 git add file_name
 git add.(all files)
 
->> to see unteacked files
-
 git status
 git commit -m "commit_msg"
 git push
+
+>> to switch and create new branch
+git switch -c "branch_name"
+
+>> only to swich between branches
+ git switch branch_name
+
+>> to push branch to github
+git push -u origin branch_name
+
+>> check local branches
+git branch
+
+>> check remote branches
+git branch -r
+
+>> to delete local branch
+git branch -d branch_name
+
+>> push to delete remote branch
+git push origin --delete branch_name
