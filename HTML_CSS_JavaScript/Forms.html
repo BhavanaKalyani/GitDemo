@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms in HTML</title>
+    </head>
+    <body>
+        <h3>Forms in HTML</h3>
+        <form action="">       
+            <!-- disabled attritube in input tag displays the field from being filled by the user    
+                 value attribute is used for setting default value which can be override by the user -->
+            <label for="fname">Enter Ur First Name: </label>
+            <input maxlength="30" id="fname" required>
+            <label for="lname">Enter Ur Last Name: </label>
+            <input maxlength="20" id="lname" required><br><br>
+
+            <label for="age">Enter ur Age: </label>
+            <input type="number" id="age" minlength="1" maxlength="3" required><br><br>
+
+            <label for="email">Enter ur Email: </label>
+            <input type="email" id="email"><br><br>
+
+            <label for="phno">Enter ur PhNo: </label>
+            <input type="tel" id="phno" maxlength="10" required><br><br>
+            
+            <label for="password">Enter ur Password: </label>
+            <input type="password" id="password" required><br><br>
+            
+            <p>Select ur Language</p>
+            <input type="checkbox" name="lang" id="english" checked><label for="english">English</label>
+            <input type="checkbox" name="lang" id="hindi"><label for="hindi">Hindi</label>
+            <input type="checkbox" name="lang" id="telugu"><label for="telugu">Telugu</label>
+            <input type="checkbox" name="lang" id="tamil"><label for="tamil">Tamil</label>
+            <input type="checkbox" name="lang" id="malayalam"><label for="malayalam">Malayalam</label><br><br>
+
+             <p>Select ur Dress Type</p>
+            <input type="checkbox" name="dress type" id="kurti"><label for="kurti">Kurti</label>
+            <input type="checkbox" name="dress type" id="frock"><label for="frock">Frock</label>
+            <input type="checkbox" name="dress type" id="dressMaterial"><label for="dressMaterial">Dress Material</label>
+            <input type="checkbox" name="dress type" id="palazooSet"><label for="palazooSet">PalazooSet</label><br><br>
+
+            <!-- checked keyword in radio type makes a default option as selected which can override by the user-->
+
+            <p>Select ur Dress Size </p>
+            <input type="radio" name="dress size" id="small"><label for="small">Small</label>
+            <input type="radio" name="dress size" id="medium"><label for="medium">Medium</label>
+            <input type="radio" name="dress size" id="large"><label for="large">Large</label><br><br>
+
+            <label for="color">Select Color for Dress</label>
+            <input type="color" id="color"><br><br>
+
+            <label for="paymentOptions">Select ur Payment Method</label>
+            <select id="paymentOptions" name="payment">
+                <option></option>
+                <option>UPI</option>
+                <option>GPay</option>
+                <option>PhonePay</option>
+                <option>COD</option>
+            </select><br><br>
+
+            <label for="feedback">Please provide ur Feedback</label>
+            <textarea id="feedback" placeholder="Enter ur Feedback" rows="5" cols="80"></textarea><br><br>
+
+            <input type="reset">
+
+            <input type="submit">
+        </form>
+
+    </body>
+</html>
